@@ -1,5 +1,3 @@
-git remote add origin https://github.com/VinayakAllada/Quick-Live-Chat-Application.git# Full-Stack Chat Application
-
 Welcome to your sleek, modern, and powerful full-stack chat application! This project combines cutting-edge frontend technologies with a robust backend to deliver a seamless real-time messaging experience.
 
 ## 🌟 Features

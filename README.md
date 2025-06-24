@@ -18,9 +18,7 @@ Welcome to your sleek, modern, and powerful full-stack chat application! This pr
 
 ## Frontend
 
-HTML5
-
-CSS3
+Tailwind CSS
 
 JavaScript
 
@@ -31,6 +29,8 @@ React.js
 Node.js
 
 Express.js
+
+MongoDB
 
 # Clone the repository
 

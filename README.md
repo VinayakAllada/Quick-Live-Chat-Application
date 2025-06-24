@@ -1,21 +1,25 @@
-Full-Stack Chat Application
+git remote add origin https://github.com/VinayakAllada/Quick-Live-Chat-Application.git# Full-Stack Chat Application
+
 Welcome to your sleek, modern, and powerful full-stack chat application! This project combines cutting-edge frontend technologies with a robust backend to deliver a seamless real-time messaging experience.
 
-🌟 Features
-Real-time messaging with WebSockets
+## 🌟 Features
 
-User authentication (login/signup)
+1. Real-time messaging with WebSockets
 
-Message history and persistence
+2. User authentication (login/signup)
 
-Online status indicators
+3. Message history and persistence
 
-Responsive design for all devices
+4. Online status indicators
 
-Typing indicators
+5. Responsive design for all devices
 
-Technologies Used
-Frontend
+6. Typing indicators
+
+# Technologies Used
+
+## Frontend
+
 HTML5
 
 CSS3
@@ -24,26 +28,32 @@ JavaScript
 
 React.js
 
-Backend
+## Backend
+
 Node.js
 
 Express.js
 
-Clone the repository
-git clone https://github.com/SayanDhar10/Full-Stack-Chat-App.git
+# Clone the repository
 
-cd Full-Stack-Chat-App
+git clone https://github.com/VinayakAllada/Quick-Live-Chat-Application.git
 
-Install dependencies
-For backend
+cd Live-Chat application
+
+# Install dependencies
+
+# For backend
+
 cd server
 
 npm install
 
-For frontend
+# For frontend
+
 cd ../client
 
 npm install
 
-Run the application
+# Run the application
+
 npm start

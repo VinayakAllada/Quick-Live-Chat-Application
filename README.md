@@ -1,5 +1,7 @@
 Welcome to your sleek, modern, and powerful full-stack chat application! This project combines cutting-edge frontend technologies with a robust backend to deliver a seamless real-time messaging experience.
 
+## Live server link - https://quick-live-chat-application.vercel.app/
+
 ## 🌟 Features
 
 1. Real-time messaging with WebSockets

@@ -90,3 +90,4 @@ export const updateProfile = async (req, res) => {
         res.json({success:false, message: error.message});
         }
 }
+// Added a comment to trigger redeploy on Vercel

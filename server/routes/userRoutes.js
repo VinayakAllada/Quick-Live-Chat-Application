@@ -10,3 +10,4 @@ userRouter.put('/update-profile', protectRoute, updateProfile);
 userRouter.get('/check', protectRoute, checkAuth);
 
 export default userRouter;
+// Added a comment to force Vercel redeploy

@@ -21,20 +21,21 @@ const RightSideBar = () => {
     <div className={`bg-[#8185B]/10 text-white w-full relative overflow-y-scroll
             ${selectedUser ? 'max-md:hidden' : ""}`}>
 
-      <div className="pt-16 flex flex-col items-center gap-2 text-xs font-light mx-auto">
+      <div className="pt-16 flex flex-col items-center gap-2 text-xs 
+        font-light mx-auto">
         <img src={selectedUser?.profilePic || assets.avatar_icon}
           className="w-20 aspect-[1/1] rounded-full"/>
-        <div className="flex items-center gap-2 px-10 text-xl font-medium mx-auto">
-          <span>{selectedUser.fullName}</span>
-          <span
-            className={`w-2 h-2 rounded-full inline-block ${
-              onlineUsers.map(String).includes(String(selectedUser._id))
-                ? "bg-green-500"
-                : "bg-gray-500"
-            }`}
-          ></span>
-        </div>
-        <p className="px-10 mx-auto text-base text-center">{selectedUser.bio}</p>
+          <h1 className="px-10 text-xl font-medium mx-auto
+            flex items-center gap-2">
+              {
+                onlineUsers.includes(selectedUser._id) &&
+                <p 
+                  className="w-2 h-2 rounded-full bg-green-500"
+                  >{selectedUser.fullName}
+                </p>
+              }
+          </h1>
+          <p className="px-10 mx-auto">{selectedUser.bio}</p>
       </div>
 
       <hr className="border-[#ffffff50] my-4"/>

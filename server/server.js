@@ -7,6 +7,7 @@ import { connectDB } from './lib/db.js';
 import userRouter from './routes/userRoutes.js';
 import messageRouter from './routes/messageRoutes.js';
 import { log } from 'console';
+import express from 'express';
 
 // Create Express app server using HTYP server
 const app = express();

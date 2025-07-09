@@ -63,5 +63,12 @@ app.use('/api/messages', messageRouter)
 // Connect to mongoDB
 await connectDB()
 
+if(process.env.NODE_ENV !== 'production'){
+
 const PORT = process.env.PORT || 9000;
 server.listen(PORT, () => console.log('Sever connected to port: ', PORT));
+
+}
+
+// Export server for Vercel
+export default server;

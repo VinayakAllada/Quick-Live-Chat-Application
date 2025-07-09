@@ -14,8 +14,7 @@ const App = () => {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('./src/assets/bgImage.svg')" }}
+      className="bg-[url('/bgImage.svg')] bg-contain"
     >
       <Toaster />
       <ToastContainer />

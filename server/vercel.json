@@ -10,7 +10,11 @@
                     "routes/**",
                     "models/**",
                     "lib/**",
-                    "middleware/**"
+                    "middleware/**",
+                    "server.js",
+                    "package.json",
+                    "package-lock.json",
+                    ".env"
                 ]
             }
         }
